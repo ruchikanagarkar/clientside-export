@@ -2,7 +2,7 @@ var downloadExcel = function(data, event) {
     var excel = generate();
     download(excel);
 
-    var divContainer = document.getElementById("divData");
+    var divContainer = document.getElementById("divContainervData");
     divContainer.innerHTML = "";
     divContainer.appendChild(excel);
 
