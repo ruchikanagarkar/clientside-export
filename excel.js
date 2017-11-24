@@ -5,7 +5,6 @@ var downloadExcel = function(data, event) {
     var divContainer = document.getElementById("divContainervData");
     divContainer.innerHTML = "";
     divContainer.appendChild(excel);
-
 }
 
 var generate = function() {
